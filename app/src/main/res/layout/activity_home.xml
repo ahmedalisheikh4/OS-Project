@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#937373"
+    android:backgroundTint="#C59D9D"
+    android:fadeScrollbars="false"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FD3969B6"
+        android:backgroundTint="#233037"
+        android:gravity="top"
+        android:text="Sorting For U"
+        android:textAlignment="center"
+        android:textColor="#F1D6D6"
+        android:textColorLink="#B86F6F"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:padding="16dp"
+        android:text="Ahmed Ali : 21K-3212"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:padding="16dp"
+        android:text="Taha Hsan : 21K-4680"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Asad Noor : 21K-4678"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="325dp"
+        android:text="Run application"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
